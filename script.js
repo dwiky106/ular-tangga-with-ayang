@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', () => {
         document.createElement('div')
     ];
     playerPawns[0].classList.add('player-pawn', 'p1');
-    playerPawns[0].textContent = 'Ayg1';
+    playerPawns[0].textContent = 'Aku';
     playerPawns[1].classList.add('player-pawn', 'p2');
-    playerPawns[1].textContent = 'Ayg2';
+    playerPawns[1].textContent = 'Ayang';
     boardElement.appendChild(playerPawns[0]);
     boardElement.appendChild(playerPawns[1]);
 
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Kirim indeks pemain ke fungsi showPopup
                 showPopup(message, isLadder, currentPlayer);
                 if (finalPosition === boardSize) {
-                    const winMessage = `Selamat! Pemain ${currentPlayer + 1} menang!`;
+                    const winMessage = `Horeee ${currentPlayer + 1} menang!`;
                     showPopup(winMessage, true, currentPlayer);
                     rollDiceButton.disabled = true;
                     rollDiceButton.textContent = 'Game Selesai!';
