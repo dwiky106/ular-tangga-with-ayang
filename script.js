@@ -139,9 +139,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Tampilkan alert sebelum pop-up
             if (isLadder) {
-                alert(`Hore! Pemain ${currentPlayer + 1} naik tangga ke petak ${finalPosition}!`);
+                alert(`Cie Ayang ${currentPlayer + 1} naik tangga ke petak ${finalPosition}!`);
             } else {
-                alert(`Awas! Pemain ${currentPlayer + 1} terperosok ular ke petak ${finalPosition}!`);
+                alert(`Hahaha.. Ayang ${currentPlayer + 1} dimakan uler turun deh ke petak ${finalPosition}!`);
             }
 
             setTimeout(() => {
