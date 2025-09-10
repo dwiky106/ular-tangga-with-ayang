@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const snakesAndLadders = {
         // Ular dengan pesan
         16: { to: 6, img: 'snake_16.png', message: 'Kalo bosen satu sama lain, apa yang kudu mbok lakuin?' },
-        47: { to: 26, img: 'snake_47.png', message: 'sebutin kata lopyu yang bikin dirimu seneng' },
+        47: { to: 26, img: 'snake_47.png', message: 'sebutin selain kata lopyu yang bikin dirimu seneng' },
         49: { to: 11, img: 'snake_49.png', message: 'sebutkan 2 kebiasaan dari pasanganmu yang membuatmu tambah tresno' },
         56: { to: 53, img: 'snake_56.png', message: 'kalo misal pasanganmu tiba-tiba gaada kabar karena sibuk kerjaan apa yang dirimu lakuin' },
         62: { to: 19, img: 'snake_62.png', message: 'milih mie ayam apa sate ayam?' },
