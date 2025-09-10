@@ -177,8 +177,8 @@ document.addEventListener('DOMContentLoaded', () => {
         
         setTimeout(() => {
             if (newPotentialPosition === boardSize) {
-                alert(`Selamat! Pemain ${currentPlayer + 1} menang!`);
-                const winMessage = `Selamat! Pemain ${currentPlayer + 1} menang!`;
+                alert(`Horeee ${currentPlayer + 1} menang!`);
+                const winMessage = `Horeee ${currentPlayer + 1} menang!`;
                 showPopup(winMessage, true, currentPlayer);
                 rollDiceButton.disabled = true;
                 rollDiceButton.textContent = 'Game Selesai!';
