@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         49: { to: 11, img: 'snake_49.png', message: 'sebutkan 2 kebiasaan dari pasanganmu yang membuatmu tambah tresno' },
         56: { to: 53, img: 'snake_56.png', message: 'kalo misal pasanganmu tiba-tiba gaada kabar karena sibuk kerjaan apa yang dirimu lakuin' },
         62: { to: 19, img: 'snake_62.png', message: 'milih mie ayam apa sate ayam?' },
-        64: { to: 60, img: 'snake_64.png', message: 'berapa tahun keinginanmu rabi karo pasanganmu?' },
+        64: { to: 60, img: 'snake_64.png', message: 'tahun berapa keinginanmu rabi karo pasanganmu?' },
         87: { to: 24, img: 'snake_87.png', message: 'sebutkan 4 fakta baru yang mbok dapet dari pasangnmu dalam 48 jam terakhir' },
         93: { to: 73, img: 'snake_93.png', message: 'pengen punya anak berapa nanti kalo udah nikah?' },
         95: { to: 75, img: 'snake_95.png', message: 'sebutkan 5 sifat yang kamu sukai dari pasanganmu?' },
