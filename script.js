@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', () => {
         document.createElement('div')
     ];
     playerPawns[0].classList.add('player-pawn', 'p1');
-    playerPawns[0].textContent = 'Aku';
+    playerPawns[0].textContent = 'Ayg1';
     playerPawns[1].classList.add('player-pawn', 'p2');
-    playerPawns[1].textContent = 'Ayang';
+    playerPawns[1].textContent = 'Ayg2';
     boardElement.appendChild(playerPawns[0]);
     boardElement.appendChild(playerPawns[1]);
 
